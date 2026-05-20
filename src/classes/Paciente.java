@@ -63,7 +63,7 @@ public class Paciente {
     public void exibirFicha(){
         System.out.println("==============informaçoes===============".toUpperCase());
         System.out.println("Nome: " + getNome());
-        System.out.println("Idade: " + getIdade());
+        System.out.println("Idade: " + getIdade()) ;
         System.out.println("Peso: " + getPesoKg() + "Kg");
         System.out.printf("Altura: %.2f%n", getAltura());
     }

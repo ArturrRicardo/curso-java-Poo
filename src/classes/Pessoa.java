@@ -11,7 +11,7 @@ public class Pessoa {
 
         public Pessoa(String n, Integer i, Float p, Float a){   // O construtor está recebendo como paramentro todos os atributos da classe
 
-            this.setNome(n);     // aqui no lugar de recebermos os atributos, ja usamos os metodos modificadores
+            this.setNome (n);     // aqui no lugar de recebermos os atributos, ja usamos os metodos modificadores
             this.setIdade(i);
             this.setPeso(p);
             this.setAltura(a);

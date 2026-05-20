@@ -69,7 +69,7 @@ public class Caneta {
         }
     }
     public void rabiscar(){
-        if (carga<=0){
+        if (carga<=0) {
             System.out.println("Error\n classes.caneta não possui carga");
         }
         System.out.println("Rabiscando com a classes.caneta " + this.modelo);

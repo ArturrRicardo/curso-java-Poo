@@ -113,7 +113,7 @@ public class Contabanco {
         } else if (getTipodaconta().equals("CP")){
             if (getSaldo()>=20){
                 setSaldo(getSaldo()-20);
-                System.out.println("Mensalidade paga ! ");
+                System.out.println("Mensalidade paga !");
             }else {
                 System.out.println("Saldo insuficiente para realizar pagamento da mensalidade ");
             }

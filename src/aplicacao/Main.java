@@ -28,11 +28,11 @@ public class Main {
         pessoa1.depositar(100);
         pessoa1.pagarMensalidade();
         pessoa1.saldoDaConta();
-        pessoa1.stadoDaConta(); */
+        pessoa1.stadoDaConta();
 
         Paciente p1 = new Paciente("lucas", 23,83.5f,1.85f);
         p1.verificarIdade();
         p1.exibirFicha();
-        p1.calcularIMC();
+        p1.calcularIMC();*/
     }
 }
