@@ -1,5 +1,6 @@
 package aplicacao;
 
+import classes.Paciente;
 import exercicios.Contabanco;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -19,7 +20,7 @@ public class Main {
         c1.tampar();
 
         pessoa p1 = new pessoa("pedro",21,83.5f,1.79f);
-        p1.apresentar();*/
+        p1.apresentar();
 
 
         Contabanco pessoa1 = new Contabanco(001,"CC","Joao");
@@ -27,6 +28,11 @@ public class Main {
         pessoa1.depositar(100);
         pessoa1.pagarMensalidade();
         pessoa1.saldoDaConta();
-        pessoa1.stadoDaConta();
+        pessoa1.stadoDaConta(); */
+
+        Paciente p1 = new Paciente("lucas", 23,83.5f,1.85f);
+        p1.verificarIdade();
+        p1.exibirFicha();
+        p1.calcularIMC();
     }
 }
