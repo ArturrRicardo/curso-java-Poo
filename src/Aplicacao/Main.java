@@ -1,7 +1,6 @@
-package aplicacao;
+package Aplicacao;
 
-import classes.Paciente;
-import exercicios.Contabanco;
+import Exercicios.Quarto;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -34,5 +33,12 @@ public class Main {
         p1.verificarIdade();
         p1.exibirFicha();
         p1.calcularIMC();*/
+
+        Quarto cliente =new Quarto(302,"duplo");
+        cliente.fazerCheckin("juan",5);
+        cliente.situacaDoQuarto();
+        cliente.fazerCheckout();
+        cliente.situacaDoQuarto();
+
     }
 }

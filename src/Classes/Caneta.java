@@ -1,4 +1,4 @@
-package classes;
+package Classes;
 
 public class Caneta {
     // estou criando os atributos ( caracteristicas que o objeto precisa ter)
